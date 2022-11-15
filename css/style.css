@@ -44,11 +44,11 @@ body > p {
 
 form {
     background-color: var(--color-darkblue-alpha);
-    min-width: 400px;
-    max-width: 650px;
+    width: 720px;
     margin: auto;
-    padding: 50px 35px;
+    padding: 50px 45px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 div {
@@ -60,15 +60,16 @@ div {
 }
 
 #name input, #email input, #age input {
-    display: block;
-    width: 95%;
+    width: 100%;
     margin-top: 5px;
-    padding: 10px;
+    padding: 12px;
+    box-sizing: border-box;
     border-radius: 5px; 
+    
 }
 
 select {
-    width: 600px;
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
 }
@@ -84,7 +85,7 @@ label {
 
 ::placeholder {
     font-size: 1.2em;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 input.check {
@@ -94,13 +95,18 @@ input.check {
 }
 
 textarea {
-    width: 650px;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 input.submit {
-    width: 95%;
+    width: 100%;
     padding: 15px;
     color: var(--color-white);
     background-color: var(--color-green);
+    font-size: 1.1em;
+    border: none;
 }
 
