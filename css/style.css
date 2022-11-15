@@ -46,7 +46,7 @@ form {
     background-color: var(--color-darkblue-alpha);
     width: 720px;
     margin: auto;
-    padding: 50px 45px;
+    padding: 45px 45px;
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 18px;
@@ -109,5 +109,10 @@ input.submit {
     background-color: var(--color-green);
     font-size: 1.1em;
     border: none;
+    cursor: pointer;
 }
 
+select option {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
